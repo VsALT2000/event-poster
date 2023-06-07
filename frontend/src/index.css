@@ -1,0 +1,36 @@
+@import "~@fontsource/montserrat/index.css";
+@import "~@fontsource/montserrat/300.css";
+@import "~@fontsource/montserrat/600.css";
+@import "~@fontsource/montserrat/700.css";
+@import "~@fontsource/montserrat/800.css";
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-items: stretch;
+  min-width: 370px;
+}
+
+
+html {
+  overflow-y: scroll;
+}
+
+.ymaps-2-1-79-map-copyrights-promo {
+}
+
